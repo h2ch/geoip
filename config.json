@@ -85,14 +85,14 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip.dat"
+        "outputName": "geoip-full.dat"
       }
     },
     {
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip-only-cn-private.dat",
+        "outputName": "geoip.dat",
         "wantedList": ["cn", "private"]
       }
     },
